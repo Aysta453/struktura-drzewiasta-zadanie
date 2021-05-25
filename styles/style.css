@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    width: 35vw;
+    height: 100vh;
+    padding-left: 15px;
+    float: left;
+}
+
+.left_element{
+    margin-top:15px;
+    width: 100%;
+    height: 18%;
+    background-color: #c4c4c4;
+    border: 2px #555 solid;
+    float: left;
+}
+.left_element2{
+    margin-top:15px;
+    width: 100%;
+    height: 14%;
+    background-color: #c4c4c4;
+    border: 2px #555 solid;
+    float: left;
+}
+.left_element_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: #c4c4c4;
+    border: 2px #555 solid;
+    float: left;
+    clear: both;
+}
+
+.left_element_first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+    float: left;
+    background-color: #c4c4c4;
+    text-align: center;
+    padding-left: 5px;
+}
+.left_element_first2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    float: left;
+    background-color: #c4c4c4;
+    text-align: center;
+    padding-left: 10px;
+}
+.left_element_first p{
+    padding-right: 5px;
+}
+.left_element_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    width: 50%;
+    height: 40%;
+    float: left;
+    background-color: #c4c4c4;
+}
+.input[type=text]{
+    width: 40%;
+}
+select{
+    width: 50%;
+    margin: 0 auto;
+}
+.left_element_button{
+    width: 100%;
+    height: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_element_button2{
+    width: 33%;
+    height: 70%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_button{
+
+    border: 1px solid #018BB9;
+    border-radius: 4px;
+    background-color: #0c4f65;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
+.left_button:hover{
+    border: 1px solid #018BB9;
+    border-radius: 4px;
+    background-color: #018BB9;
+    background-image: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+
+.right{
+    padding: 15px;
+    width: 65vw;
+    float: left;
+    height: 100vh;
+}
+.right_element{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #c4c4c4;
+    overflow-x: auto;
+    border: 2px #555 solid;
+}
+
+.collapsible {
+
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\2216';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding-left: 10px;
+    color: white;
+    font-size: 1.3rem;
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.content2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 1.3rem;
+    color: white;
+    padding-left: 10px;
+    border: 2px #6c6767 solid;
+    overflow: hidden;
+    background-color: #888;
+}
