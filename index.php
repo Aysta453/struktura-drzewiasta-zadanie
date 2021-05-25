@@ -213,7 +213,7 @@ function childs1($id){
                 echo "<button class=\"collapsible\">" . $r['text'] . "</button>";
                 echo "<div class=\"content\">";
                 $rs = $r['id'];
-                childs($rs);
+                childs1($rs);
                 echo "</div>";
             }else{
                 echo "<div class=\"content2\">".$r['text']."</div>";
@@ -242,7 +242,7 @@ function childs2($id){
                 echo "<button class=\"collapsible\">" . $r['text'] . "</button>";
                 echo "<div class=\"content\">";
                 $rs = $r['id'];
-                childs($rs);
+                childs2($rs);
                 echo "</div>";
             }else{
                 echo "<div class=\"content2\">".$r['text']."</div>";
